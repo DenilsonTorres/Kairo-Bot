@@ -40,6 +40,7 @@ header {
 main {
     margin-bottom: 48px;
     border-top: 0.4px solid #F8FAFC;
+
 }
 
 .principal-section {
@@ -47,18 +48,23 @@ main {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin-top: 20px;
 }
 
-.main-text {
+.container {
     display: flex;
     flex-direction: column;
     gap: 32px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 100px;
 }
 
 .section-title {
     font-family: "Orbitron", sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 50px;
     color: #F8FAFC;
 }
 
@@ -70,7 +76,9 @@ main {
 }
 
 .main-img {
-    height: 350px;
+    height: 300px;
+    width: 100%;
+
 }
 
 footer {
