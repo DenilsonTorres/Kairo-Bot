@@ -58,9 +58,9 @@ main {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 100px;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 80px 10%;
 }
 
 .section-title {
@@ -69,6 +69,7 @@ main {
     font-size: 55px;
     color: #F8FAFC;
 }
+
 
 .section-subtitle {
     font-family: "Righteous", sans-serif;
@@ -116,6 +117,20 @@ main {
     font-size: 35px;
 }
 
+.second-section h2::after {
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 15px auto;
+
+    background: #60a5fa;
+    border-radius: 999px;
+
+    box-shadow: 0 0 10px #60a5fa;
+
+}
+
 .cards {
     display: flex;
     gap: 20px;
@@ -154,6 +169,27 @@ main {
 .card-icon {
     width: 60px;
     margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 80px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat h3 {
+    font-size: 2.5rem;
+    color: #60a5fa;
+}
+
+.stat p {
+    color: #d1d5db;
 }
 
 
