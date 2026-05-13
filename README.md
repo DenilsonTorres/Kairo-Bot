@@ -44,10 +44,10 @@ assets/img/preview.png
 ```bash
 📦 kairo-bot
  ┣ 📂 assets
- ┃ ┣ 📂 css
  ┃ ┣ 📂 img
  ┃ ┗ 📂 js
  ┣ 📜 index.html
+ ┣ 📜 style.css
  ┗ 📜 README.md
 ```
 
