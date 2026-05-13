@@ -34,7 +34,6 @@ header {
     color: #F8FAFC;
     font-size: 18px;
     font-weight: 500;
-    /* font-family: "Righteous", sans-serif; */
     font-family: "Orbitron", sans-serif;
     text-decoration: none;
     transition: 0.5s ease;
@@ -44,9 +43,30 @@ header {
     transform: scale(1.05);
 }
 
+.button-header {
+    background-color: #6366F1;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #CBD5E1;
+    transition: 0.5s ease;
+}
+
+
+.button-header:hover {
+    color: #6366F1;
+    background-color: #0F172A;
+    transform: scale(1.05);
+}
+
 main {
     margin-bottom: 48px;
-    border-top: 0.4px solid #F8FAFC;
+    border-top: 0.4px solid #94A3B8;
 
 }
 
@@ -77,9 +97,8 @@ main {
     color: #F8FAFC;
 }
 
-
 .section-subtitle {
-    font-family: "Righteous", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 20px;
     color: #fff2e7;
@@ -92,7 +111,6 @@ main {
         drop-shadow(0 0 20px rgba(96, 165, 250, 0.5));
 
     animation: float 4s ease-in-out infinite;
-
 }
 
 @keyframes float {
@@ -133,7 +151,7 @@ main {
 
 .second-section {
     padding: 80px 10%;
-    border-top: 0.4px solid #F8FAFC;
+    border-top: 0.4px solid #94A3B8;
 }
 
 .second-section h2 {
@@ -150,12 +168,9 @@ main {
     width: 120px;
     height: 3px;
     margin: 15px auto;
-
     background: #60a5fa;
     border-radius: 999px;
-
     box-shadow: 0 0 10px #60a5fa;
-
 }
 
 .cards {
@@ -221,12 +236,50 @@ main {
 
 
 footer {
-    border-top: 0.4px solid #fff2e7;
-    padding: 32px;
+    border-top: 0.4px solid #94A3B8;
+    padding: 60px 10%;
+    text-align: center;
 }
 
 .footer-logo {
-    height: 120px;
-    display: block;
-    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    height: 250px;
+}
+
+footer p {
+    color: #CBD5E1;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+    color: #9ca3af;
+    font-family: "Poppins", sans-serif;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #F8FAFC;
+    transition: 0.5s ease;
+    font-family: "Orbitron", sans-serif;
+}
+
+.footer-links a:hover {
+    color: #60a5fa;
+    transform: scale(1.05);
+}
+
+
+footer span {
+    color: #6b7280;
+    font-size: 16px;
 }
