@@ -33,7 +33,34 @@ O projeto foi desenvolvido com o objetivo de revisar e praticar:
 
 ## 📸 Preview
 
-Adicione 
+Adicione aqui uma screenshot do projeto.
 
-## 
-https://github.com/DenilsonTorres
+```bash
+assets/img/preview.png
+```
+
+## 📂 Estrutura do projeto
+
+```bash
+📦 kairo-bot
+ ┣ 📂 assets
+ ┃ ┣ 📂 css
+ ┃ ┣ 📂 img
+ ┃ ┗ 📂 js
+ ┣ 📜 index.html
+ ┗ 📜 README.md
+```
+
+## 🎯 Objetivo
+
+Esse projeto foi desenvolvido como prática para relembrar conceitos importantes de front-end e evolução visual na criação de interfaces modernas.
+
+## 📌 Status do projeto
+
+🚧 Em desenvolvimento
+
+## 👨‍💻 Autor
+
+Denilson Torres
+
+- GitHub: https://github.com/DenilsonTorres
