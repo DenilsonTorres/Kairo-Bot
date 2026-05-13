@@ -59,19 +59,21 @@ main {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .section-title {
     font-family: "Orbitron", sans-serif;
     font-weight: 700;
-    font-size: 50px;
+    font-size: 55px;
     color: #F8FAFC;
 }
 
 .section-subtitle {
     font-family: "Righteous", sans-serif;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     color: #fff2e7;
 }
 
@@ -80,6 +82,80 @@ main {
     width: 100%;
 
 }
+
+.section-button {
+    background-color: #6366F1;
+    width: 250px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #CBD5E1;
+    transition: 0.3s ease;
+}
+
+.section-button:hover {
+    color: #6366F1;
+    background-color: #0F172A;
+    transform: scale(1.05);
+}
+
+.second-section {
+    padding: 80px 10%;
+    border-top: 0.4px solid #F8FAFC;
+}
+
+.second-section h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: #CBD5E1;
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.card {
+    background: #111827;
+    padding: 30px;
+    border-radius: 16px;
+    transition: 0.3s;
+    color: #fff2e7;
+    font-family: "Orbitron", sans-serif;
+
+    width: 300px;
+    height: 250px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+.card:hover {
+    box-shadow: 0 0 20px #60a5fa;
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    font-size: 24px;
+
+}
+
+.card-icon {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
 
 footer {
     border-top: 0.4px solid #fff2e7;
