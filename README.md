@@ -31,13 +31,6 @@ O projeto foi desenvolvido com o objetivo de revisar e praticar:
 - Visual futurista
 - Layout organizado e responsivo
 
-## 📸 Preview
-
-Adicione aqui uma screenshot do projeto.
-
-```bash
-assets/img/preview.png
-```
 
 ## 📂 Estrutura do projeto
 
