@@ -48,9 +48,11 @@ O projeto foi desenvolvido com o objetivo de revisar e praticar:
 
 Esse projeto foi desenvolvido como prática para relembrar conceitos importantes de front-end e evolução visual na criação de interfaces modernas.
 
-## 📌 Status do projeto
+## 🚀 Demonstração
 
-🚧 Em desenvolvimento
+🔗 [Ver Projeto Online](https://kairobots.netlify.app/)
+
+📂 [Ver Código Fonte](https://github.com/DenilsonTorres/Kairo-Bot)
 
 ## 👨‍💻 Autor
 
